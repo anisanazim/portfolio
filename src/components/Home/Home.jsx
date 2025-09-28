@@ -151,12 +151,10 @@ function Home() {
           </div>
 
           <p className="hero-element text-slate-300 text-lg mb-10 max-w-2xl leading-relaxed">
-            Final-year <span className="text-emerald-400 font-semibold">Software Engineering</span> student at University of Florida with solid experience in 
-            <span className="text-blue-400 font-semibold"> Software Engineering</span>. Passionate about backend development, 
-            database design, and building <span className="text-violet-400 font-semibold">scalable applications</span>. 
-            Seeking opportunities to apply technical knowledge and contribute to real-world projects.
-          </p>
-
+            A passionate <span className="text-emerald-400 font-semibold">Computer Science professional and tech enthusiast</span> based in Gainesville, Florida. 
+            Passionate about backend development, with growing expertise in <span className="text-violet-400 font-semibold">Data analysis, Machine learning, and Automation.</span>
+            Seeking opportunities to apply technical knowledge and contribute to real-world projects.  I enjoy building scalable, data-driven solutions that bridge the gap between complex systems and actionable insights.
+          </p> 
           <div className="hero-element flex flex-wrap gap-6">
             <button
               onClick={() => {

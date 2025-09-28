@@ -31,12 +31,13 @@ function Navbar() {
 
       // Determine active section based on scroll position
       const sections = [
-        "home",
-        "about",
-        "projects",
-        "tech-stack",
-        "resume",
-        "contact",
+  "home",
+  "about",
+  "projects",
+  "tech-stack",
+  "resume",
+  "testimonials",
+  "contact",
       ];
       const sectionElements = sections.map((id) => document.getElementById(id));
 
@@ -183,7 +184,7 @@ function Navbar() {
                 />
               </div>
               <span className="text-2xl font-bold gradient-text">
-                anisashaik
+                AnisaShaik
               </span>
             </motion.button>
           </div>
@@ -214,11 +215,17 @@ function Navbar() {
               label="Tech Stack"
               onClick={() => scrollToSection("tech-stack")}
             />
-             <NavLink
+            <NavLink
               sectionId="resume"
               active={activeSection === "resume"}
               label="Resume"
               onClick={() => scrollToSection("resume")}
+            />
+            <NavLink
+              sectionId="testimonials"
+              active={activeSection === "testimonials"}
+              label="Testimonials"
+              onClick={() => scrollToSection("testimonials")}
             />
             <NavLink
               sectionId="contact"
@@ -352,6 +359,13 @@ function Navbar() {
             label="Resume"
             onClick={() => handleMobileNavClick("resume")}
             active={activeSection === "resume"}
+          />
+          <MobileNavLink
+            sectionId="testimonials"
+            icon={<FaEnvelope />}
+            label="Testimonials"
+            onClick={() => handleMobileNavClick("testimonials")}
+            active={activeSection === "testimonials"}
           />
           <MobileNavLink
             sectionId="contact"

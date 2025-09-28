@@ -186,9 +186,9 @@ function About() {
               <h3 className="text-2xl font-bold text-slate-100 mb-4">Hello! I'm Anisa Shaik</h3>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  I'm a <span className="text-blue-400 font-semibold">Full-Stack Developer</span> with a passion for building 
-                  enterprise-level applications using <span className="text-green-400 font-semibold">my knowledge</span> and
-                  <span className="text-green-400 font-semibold"> my skills</span>.
+                  I'm a <span className="text-blue-400 font-semibold">graduate student</span> passionate about creating enterprise-level applications that combine solid 
+                  <span className="text-green-400 font-semibold"> engineering skills</span> with a focus on 
+                  <span className="text-green-400 font-semibold"> impactful user experiences</span>.
                 </p>
                 <p>I’m a passionate problem solver, a technology enthusiast, and a lifelong learner dedicated to creating impactful solutions. My journey in computer science has been fueled by a love for innovation and a drive to explore cutting-edge technologies.
                 </p>

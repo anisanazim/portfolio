@@ -1,7 +1,7 @@
 import { useEffect, useState, Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-
+import RainbowRipple from './components/Background/RainbowRipple'
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary'
 import Navbar from './components/Layout/Navigation/Navbar'
 import Footer from './components/Layout/Navigation/Footer'
@@ -18,6 +18,7 @@ const About = lazy(() => import('./components/About/About'))
 const Projects = lazy(() => import('./components/Projects/Projects'))
 const Resume = lazy(() => import('./components/Resume/Resume'))
 const TechStack = lazy(() => import('./components/TechStack/TechStack'))
+const Testimonials = lazy(() => import('./components/Testimonials/Testimonials'))
 const Contact = lazy(() => import('./components/Contact/Contact'))
 
 function App() {
@@ -91,6 +92,8 @@ function App() {
             <>
               <Navbar />
               <main className="relative">
+                  {/* Rainbow Ripple Overlay */}
+                  <RainbowRipple />
                 <ScrollToTop />
                 <ErrorBoundary fallbackMessage="There was an error loading the page content.">
                   <Routes>
@@ -127,6 +130,13 @@ function App() {
                         <MobileSafeSection id="resume" fallback={<FastFallback message="Loading resume..." />}>
                           <Suspense fallback={<FastFallback message="Loading resume..." />}>
                             <Resume />
+                          </Suspense>
+                        </MobileSafeSection>
+
+                        {/* Testimonials section */}
+                        <MobileSafeSection id="testimonials" fallback={<FastFallback message="Loading testimonials..." />}>
+                          <Suspense fallback={<FastFallback message="Loading testimonials..." />}>
+                            <Testimonials />
                           </Suspense>
                         </MobileSafeSection>
 

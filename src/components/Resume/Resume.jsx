@@ -22,8 +22,8 @@ function Resume() {
 
   const handleDownloadPDF = useCallback(() => {
     const link = document.createElement('a')
-    link.href = '/documents/Anisa_Shaik_Resume.pdf'
-    link.download = 'Anisa_Shaik_Resume.pdf'
+    link.href = '/documents/Anisa Shaik Resume.pdf'
+    link.download = 'Anisa Shaik Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -37,17 +37,17 @@ function Resume() {
       period: "May 2025 - Present",
       location: "Gainesville, Florida, United States",
       achievements: [
-        "Developing an AI agent for iChatBio.org that uses the Atlas of Living Australia (ALA) to answer species and occurrence questions across Australia.",
-        "Leveraging GPT-4 to translate natural language questions into precise ALA API queries, with Pydantic + Instructor ensuring validated, reliable parameters before execution.",
-        "Integrating ALA’s Spatial Portal concepts (polygons, bounding boxes, gazetteer regions) to make spatial queries accessible without technical jargon.",
-        "Delivering results in human-friendly summaries and multi-format exports (CSV/JSON/RDF/KML/WKT/EML), aligned with ALA’s research tools and R workflows."
-      ]
+   "Created an AI agent for iChatBio.org with GPT-4, enabling access to 20M+ occurrence records from the Atlas of Living Australia (ALA), with Pydantic + Instructor ensuring 100% reliable parameters.",
+   "Architected modular NLP pipelines (entity resolution, parameter extraction, response summarization), driving a 15% increase in query accuracy and a 20% reduction in response time.",
+   "Leveraged the iChatBio SDK to handle A2A protocol abstractions and enhance middleware workflows, contributing to a 25% improvement in developer efficiency.",
+   "Integrated ALA’s Spatial Portal concepts (polygons, bounding boxes, gazetteer regions) to make spatial queries accessible without technical jargon."
+    ]
     },
     {
       title: "Member Services Associate",
-      company: "UF RecSports - Part Time",
+      company: "UF Department of Recreational Sports - Part Time",
       period: "May 2025 - Sep 2025",
-      location: "United States",
+      location: "Gainesville, Florida, United States",
       achievements: [
         "Assisted students, staff, and guests with access issues and inquiries, ensuring a smooth and welcoming entry experience.",
         "Delivered efficient, friendly solutions in high-volume situations by staying composed under pressure and actively listening to concerns.",
@@ -55,18 +55,20 @@ function Resume() {
   ]
     },
 {
-      title: "Software Analyst",
-      company: "FIS",
+      title: "Software Engineer",
+      company: "Fidelity National Information Services, Inc. (FIS)",
       period: "Jun 2023 - Jul 2024",
       location: "Chennai, Tamil Nadu, India",
       achievements: [
-        "Developed and maintained software components for the US government EBT (Electronic Benefit Transfer) project, implementing robust data validation and integration workflows that improved accuracy by 30%",
-        "As part of a cross-functional team, I focused on building scalable automation and data infrastructure that supported analytics, API reliability, and system efficiency."
+        "Designed and implemented data validation workflows for a U.S. government EBT system, leveraging Java/Spring Boot to process 10K+ daily transactions, boosting system reliability by 30%.",
+        "Optimized SQL queries and parallelized batch workflows, cutting data ingestion latency by 30% and ensuring 90% system uptime for mission-critical benefit distribution.",
+        "Automated bulk card processing and transaction validation workflows (POS, ATM, e-commerce, voucher, incentive) using loaders and SQL log validation, reducing manual effort by 40%.",
+        "Enhanced backend batch processing and settlements by refining SQL stored procedures and transaction logic, lowering reconciliation mismatches by 25% and improving financial reporting accuracy."
       ]
     },
 {
       title: "IT Trainee",
-      company: "FIS",
+      company: "Fidelity National Information Services, Inc. (FIS)",
       period: "Jun 2022 - Jun 2023",
       location: "Chennai, Tamil Nadu, India",
       achievements: [
@@ -77,7 +79,7 @@ function Resume() {
     },
 {
       title: "Student Council Executive Member",
-      company: "BSA Crescent Institute of Science and Technology",
+      company: "B.S. Abdur Rahman Crescent Institute of Science and Technology",
       period: "Jun 2019 - May 2022",
       location: "Chennai, Tamil Nadu, India",
       achievements: [
@@ -95,8 +97,8 @@ function Resume() {
         "During my internship, I developed a comprehensive hybrid model for stock market prediction using both numerical analysis and textual sentiment analysis. This project combined traditional stock price data with news headline sentiment to create a more accurate prediction system.",
         "Developed a Long Short-Term Memory (LSTM) neural network model to analyze 17 years of historical TCS stock data for numerical price prediction",
         "Performed sentiment analysis on news headlines, classifying them as positive (19.47%), negative (7.96%), or neutral (72.58%).",
-	"Created a hybrid prediction model combining stock price data with sentiment analysis features including polarity and subjectivity scores.",
-	"This internship strengthened my expertise in financial data analysis, machine learning implementation, and hybrid model development, while providing valuable experience in applying data science techniques to real-world financial prediction challenges."
+	      "Created a hybrid prediction model combining stock price data with sentiment analysis features including polarity and subjectivity scores.",
+	      "This internship strengthened my expertise in financial data analysis, machine learning implementation, and hybrid model development, while providing valuable experience in applying data science techniques to real-world financial prediction challenges."
       ]
     }
   ], []);
@@ -107,13 +109,13 @@ function Resume() {
       degree: "Master of Science - MS, Computer Science",
       institution: "University of Florida",
       period: "August 2024 - May 2026",
-      location: "Gainesville, Florida, US.",
+      location: "Gainesville, Florida, United States.",
       gpa: "3.9",
       details: "Final-year Software Engineering student with solid experience in Java and Spring Boot. Passionate about backend development, database design, and building scalable applications."
     },
 {
       degree: "Bachelor of Technology - B.Tech, Computer Science",
-      institution: "BSA Crescent Institute of Science and Technology",
+      institution: "B.S. Abdur Rahman Crescent Institute of Science and Technology",
       period: "July 2018 - May 2022",
       location: "Chennai, Tamil Nadu, India.",
       gpa: "9.84/10",
@@ -165,12 +167,12 @@ function Resume() {
   // Awards & Scholarships - memoized with actual achievements
   const awards = useMemo(() => [
     {
-      title: "BSA Crescent Insitute of Science and Technology",
-      issuer: "University",
-      year: "2022",
-      type: "Half Scholarship (50%)",
-      achievement: "GPA 9.84/10",
-      description: "Awarded half  tuition scholarship for outstanding academic performance"
+  title: "Merit Scholarship",
+  issuer: "B.S. Abdur Rahman Crescent Institute of Science and Technology",
+  year: "2018 - 2022",
+  type: "Academic Excellence",
+  achievement: "Awarded ₹1,40,000 annually for 4 consecutive years",
+  description: "Received highest-tier merit scholarship for B.Tech. programme, granted for securing above 80% in entrance qualification and maintaining the best throughout the degree."
     }
   ], []);
 
@@ -241,7 +243,7 @@ function Resume() {
                         Resume Preview
                       </h3>
                       <p className="text-slate-400 text-sm mt-1">
-                        Anisa_Shaik_Resume.pdf
+                        Anisa Shaik Resume.pdf
                       </p>
                     </div>
                     <motion.button
@@ -255,7 +257,7 @@ function Resume() {
                   </div>
                   <div className="bg-slate-800/50 rounded-xl p-4">
                     <iframe
-                      src="/documents/Anisa_Shaik_Resume.pdf#toolbar=1&navpanes=1&scrollbar=1&page=1&view=FitH"
+                      src="/documents/Anisa Shaik Resume.pdf#toolbar=1&navpanes=1&scrollbar=1&page=1&view=FitH"
                       className="w-full h-[600px] rounded-lg border border-slate-700/30"
                       title="Resume PDF"
                       loading="lazy"
@@ -270,7 +272,7 @@ function Resume() {
                       </p>
                       <div className="flex gap-4 justify-center">
                         <a
-                          href="/documents/Anisa_Shaik_Resume.pdf"
+                          href="/documents/Anisa Shaik Resume.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-300"

@@ -108,17 +108,19 @@ const LazyProjectCard = memo(({ project, index = 0 }) => {
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="absolute bottom-4 left-4 right-4 flex gap-3">
-            <motion.a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="p-2 bg-slate-800/80 backdrop-blur-sm rounded-lg text-slate-300 hover:text-white hover:bg-slate-700/80 transition-all duration-200"
-              whileHover={{ scale: 1.1, rotate: 5 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <FaGithub className="text-lg" />
-            </motion.a>
+            {project.githubUrl && project.githubUrl.trim() !== '' && (
+              <motion.a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="p-2 bg-slate-800/80 backdrop-blur-sm rounded-lg text-slate-300 hover:text-white hover:bg-slate-700/80 transition-all duration-200"
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <FaGithub className="text-lg" />
+              </motion.a>
+            )}
             
             <motion.a
               href={project.demoUrl}
