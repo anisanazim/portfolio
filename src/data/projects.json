@@ -13,30 +13,30 @@
     "teamSize": ""
   },
   {
-    "id": 2,
-    "title": "Medical MRI Brain Scan Segmentation",
-    "description": "Designed a deep learning pipeline to segment six distinct brain layers from MRI scans. Utilized a U-Net architecture and hybrid methods integrating active contours, multi-threshold segmentation, and deep learning models for enhanced diagnostic accuracy.",
+    "id": 9,
+    "title": "ICU Clinical Decision Support Agent",
+    "description": "Built an agentic multimodal RAG system for ICU clinical decision support using LangGraph and Weaviate. The system retrieves clinical guidelines, patient records, and radiology reports, cross-references patient data against clinical thresholds, scores answer confidence, and escalates low-confidence results.",
     "image": "/2.png",
-    "tags": ["Computer Vision", "Medical Imaging", "MRI Segmentation", "U-Net", "Deep Learning"],
-    "category": "deep learning",
-    "githubUrl": "",
-    "demoUrl": "",
+    "tags": ["Python", "LangGraph", "RAG", "Weaviate", "FastAPI", "React", "Clinical AI", "Multimodal AI", "Python"],
+    "category": "machine learning",
+    "githubUrl": "https://github.com/anisanazim/ICU-CDS-Agent",
+    "demoUrl": "https://github.com/anisanazim/ICU-CDS-Agent",
     "period": "",
     "role": "",
     "teamSize": ""
   },
   {
-    "id": 3,
-    "title": "Driver Fatigue Detection System",
-    "description": "Built a real-time drowsiness detection system using computer vision and CNNs. Integrated eye aspect ratio (EAR) tracking, blink duration monitoring, and adaptive multi-level alerts to improve driver safety.",
-    "image": "/3.jpeg",
-    "tags": ["OpenCV", "CNN", "Real-Time Detection", "Computer Vision", "Driver Safety"],
-    "category": "deep learning",
-    "githubUrl": "",
+    "id": 10,
+    "title": "HALO-RAG",
+    "description": "Built a self-verifying retrieval-augmented generation pipeline that reduces hallucinations through hybrid retrieval, claim extraction, NLI-based claim verification, targeted repair, and multi-stage evaluation. The system attributes failures to retrieval, generation, or verification and applies the appropriate correction strategy.",
+    "image": "/7.png",
+    "tags": ["Python", "RAG", "FAISS", "BM25", "MPNet", "Cross-Encoder", "FLAN-T5", "QLoRA", "NLI", "DeBERTa", "Hallucination Detection"],
+    "category": "machine learning",
+    "githubUrl": "https://github.com/hemanthballa07/HALO-RAG",
     "demoUrl": "",
     "period": "",
     "role": "",
-    "teamSize": ""
+    "teamSize": "4"
   },
   {
     "id": 4,
@@ -46,6 +46,19 @@
     "tags": ["Python", "Recommender Systems", "Graph Convolutional Networks", "PinSage"],
     "category": "machine learning",
     "githubUrl": "https://github.com/anisanazim/Movie-Recommendation-Engine",
+    "demoUrl": "",
+    "period": "",
+    "role": "",
+    "teamSize": ""
+  },
+  {
+    "id": 11,
+    "title": "USGS Water Data Agent",
+    "description": "Built an iChatBio agent that translates natural-language questions into deterministic, schema-validated queries across USGS sensor networks and laboratory water quality databases. The async FastAPI service returns real observations and audit-grade artifacts with circuit breakers, analyte indexing, out-of-band result storage, and a tiered testing and evaluation pipeline.",
+    "image": "/3.png",
+    "tags": ["Python", "FastAPI", "Pydantic", "OpenAI", "iChatBio", "LLM pipelines", "AsyncIO", "Circuit Breakers", "pytest", "DeepEval", "LangSmith"],
+    "category": "backend",
+    "githubUrl": "https://github.com/anisanazim/USGS_Water_Agent",
     "demoUrl": "",
     "period": "",
     "role": "",
@@ -78,19 +91,6 @@
     "teamSize": "2"
   },
   {
-    "id": 7,
-    "title": "Aspect-Based Sentiment Analysis",
-    "description": "Developed an NLP-based system to analyze customer reviews at the aspect level. Implemented advanced sentiment classification techniques with feature engineering, dimensionality reduction, and fine-tuned models for performance optimization.",
-    "image": "/7.png",
-    "tags": ["NLP", "Sentiment Analysis", "Feature Engineering", "Dimensionality Reduction", "Machine Learning"],
-    "category": "machine learning",
-    "githubUrl": "",
-    "demoUrl": "",
-    "period": "",
-    "role": "",
-    "teamSize": ""
-  },
-  {
     "id": 8,
     "title": "AskPY",
     "description": "An intelligent assistant that answers Python-related queries using a dual-source retrieval-augmented generation (RAG) pipeline, integrating internal documentation search with web-based resources.",
@@ -102,6 +102,18 @@
     "period": "",
     "role": "",
     "teamSize": ""
+  },
+  {
+    "id": 12,
+    "title": "WaitWhat?",
+    "description": "Built a video learning assistant that uses facial-expression signals to flag possible confusion and record timestamps. Integrated Whisper transcription, BART summarization, and OpenAI-powered question answering in Gradio.",
+    "image": "/10.png",
+    "tags": ["Python", "Gradio", "OpenCV", "PyTorch", "TensorFlow", "Transformers", "Whisper", "BART", "OpenAI API", "yt-dlp", "MoviePy", "YouTube API"],
+    "category": "machine learning",
+    "githubUrl": "https://github.com/vai-vj/WaitWhat",
+    "demoUrl": "",
+    "period": "",
+    "role": "",
+    "teamSize": "5"
   }
 ]
-

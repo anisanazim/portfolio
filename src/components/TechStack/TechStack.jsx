@@ -52,88 +52,96 @@ function TechStack() {
       borderColor: "border-orange-500/20",
       technologies: [
         { name: "Python", icon:SiPython , level: "Expert", color: "#ED8B00" },
-        { name: "R", icon: FaRProject, level: "Advanced", color: "#ED8B00" },
-        { name: "C/C++", icon: SiCplusplus, level: "Advanced", color: "#ED8B00" },
         { name: "Java", icon: FaJava, level: "Advanced", color: "#ED8B00" },
-        { name: "Javascript", icon: SiJavascript, level: "Intermediate", color: "#ED8B00" }
-     ]
+        { name: "JavaScript (ES6+)", icon: SiJavascript, level: "Intermediate", color: "#ED8B00" },
+        { name: "Go", icon: FaCode, level: "Proficient", color: "#ED8B00" },
+        { name: "SQL", icon: SiMysql, level: "Expert", color: "#ED8B00" },
+        { name: "C/C++", icon: SiCplusplus, level: "Advanced", color: "#ED8B00" },
+        { name: "TypeScript", icon: SiTypescript, level: "Proficient", color: "#ED8B00" }
+      ]
     },
     {
       id: 2,
-      title: "AI/ML Technologies",
+      title: "AI / Generative AI",
       icon: RiRobot2Fill,
       color: "text-blue-400",
       bgColor: "bg-blue-500/10",
       borderColor: "border-blue-500/20",
       technologies: [
-        { name: "TensorFlow", icon: SiTensorflow, level: "Advanced", color: "#61DAFB" },
+        { name: "Natural Language Processing", icon: GiBrainStem, level: "Advanced", color: "#61DAFB" },
+        { name: "Retrieval-Augmented Generation (RAG)", icon: GiBrain, level: "Proficient", color: "#61DAFB" },
+        { name: "Agentic AI", icon: RiRobot2Fill, level: "Proficient", color: "#61DAFB" },
+        { name: "Prompt Engineering", icon: FaCode, level: "Proficient", color: "#61DAFB" },
+        { name: "Fine-tuning & LoRA/QLoRA", icon: GiBrain, level: "Proficient", color: "#61DAFB" },
+        { name: "LLM APIs & Tool Calling", icon: RiRobot2Fill, level: "Proficient", color: "#61DAFB" },
         { name: "PyTorch", icon: SiPytorch, level: "Expert", color: "#06B6D4" },
-        { name: "Scikit-learn", icon:  SiScikitlearn, level: "Expert", color: "#06B6D4" },
-        { name: "OpenCV", icon: SiOpencv, level: "Expert", color: "#06B6D4" },
-        { name: "NLTK", icon: TbBrandPython, level: "Expert", color: "#06B6D4" },
-        { name: "Keras", icon: SiKeras, level: "Expert", color: "#06B6D4" },
-        { name: "Pandas", icon: SiPandas, level: "Expert", color: "#06B6D4"},
-        { name: "NumPy", icon: SiNumpy, level: "Expert", color: "#06B6D4" },
-        { name: "SciPy", icon: SiScipy, level: "Intermediate", color: "#06B6D4" }
+        { name: "TensorFlow", icon: SiTensorflow, level: "Advanced", color: "#06B6D4" },
+        { name: "Hugging Face Transformers", icon: FaCode, level: "Proficient", color: "#06B6D4" }
       ]
     },
     {
       id: 3,
-      title: "ML Techniques",
-      icon: GiBrain,
+      title: "Frameworks & Libraries",
+      icon: FaCode,
       color: "text-green-400",
       bgColor: "bg-green-500/10",
       borderColor: "border-green-500/20",
       technologies: [
-        { name: "Deep Learning", icon: LuBrainCircuit, level: "Advanced", color: "#47A248" },
-        { name: "Computer Vision", icon: AiOutlineEye, level: "Advanced", color: "#47A248" },
-        { name: "Natural Language Processing", icon: GiBrainStem, level: "Intermediate", color: "#47A248" },
-        { name: "Reinforcement Learning", icon: SiProbot, level: "Beginner", color: "#47A248" }
+        { name: "LangGraph", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "LangChain", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "LlamaIndex", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "MCP", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "Claude Agents SDK", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "FastAPI", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "DeepEval & RAGAS", icon: FaCode, level: "Proficient", color: "#47A248" },
+        { name: "TensorRT-LLM", icon: FaCode, level: "Proficient", color: "#47A248" }
       ]
     },
     {
       id: 4,
-      title: "Database Management",
-      icon: FaDatabase,
+      title: "Cloud & MLOps",
+      icon: FaCloud,
       color: "text-purple-400",
       bgColor: "bg-purple-500/10",
       borderColor: "border-purple-500/20",
       technologies: [
-        { name: "SQL", icon: SiMysql, level: "Expert", color: "#10A37F" },
-        { name: "PostgreSQL", icon: SiPostgresql, level: "Advanced", color: "#10A37F" },
-        { name: "DynamoDB", icon: SiAmazondynamodb, level: "Advanced", color: "#10A37F" },
-        { name: "Redis", icon: SiRedis, level: "Proficient", color: "#10A37F" }
+        { name: "AWS (SageMaker, Bedrock, EKS, Lambda, Fargate)", icon: FaAws, level: "Proficient", color: "#10A37F" },
+        { name: "Docker", icon: SiDocker, level: "Intermediate", color: "#10A37F" },
+        { name: "Kubernetes", icon: FaCloud, level: "Proficient", color: "#10A37F" },
+        { name: "MLflow", icon: FaCode, level: "Proficient", color: "#10A37F" }
       ]
     },
-{
+    {
       id: 5,
-      title: "Data Processing & Visualization",
-      icon: PiGraph,
+      title: "Databases & Vector Retrieval",
+      icon: FaDatabase,
       color: "text-violet-400",
-      bgColor: "bg-violet-500/10", 
+      bgColor: "bg-violet-500/10",
       borderColor: "border-violet-500/20",
       technologies: [
-        { name: "Matplotlib", icon: MdScatterPlot, level: "Advanced", color: "#CC785C" },
-        { name: "Seaborn", icon: PiChartScatterBold, level: "Proficient", color: "#CC785C" },
-	{ name: "Tableau", icon: SiTableau, level: "Proficient", color: "#CC785C" },
-	{ name: "Jupyter", icon: SiJupyter, level: "Proficient", color: "#CC785C" },
-        { name: "Data Wrangling", icon: SiGoogledatastudio, level: "Proficient", color: "#CC785C" }
+        { name: "PostgreSQL", icon: SiPostgresql, level: "Advanced", color: "#CC785C" },
+        { name: "MySQL", icon: SiMysql, level: "Expert", color: "#CC785C" },
+        { name: "FAISS", icon: FaDatabase, level: "Proficient", color: "#CC785C" },
+        { name: "SQL Server", icon: SiMysql, level: "Proficient", color: "#CC785C" }
       ]
-},    
+    },
     {
       id: 6,
-      title: "Cloud & Deployment",
-      icon: FaCloud,
+      title: "Software Engineering & Developer Tools",
+      icon: FaCode,
       color: "text-cyan-400",
       bgColor: "bg-cyan-500/10",
       borderColor: "border-cyan-500/20",
       technologies: [
-        { name: "Docker", icon: SiDocker, level: "Intermediate", color: "#26C6DA" },
-        { name: "Vercel", icon: SiVercel, level: "Advanced", color: "#26C6DA" },
-        { name: "Cloudinary", icon: SiCloudinary, level: "Proficient", color: "#26C6DA" },
-        { name: "GitHub", icon: SiGithub, level: "Advanced", color: "#26C6DA" },
-        { name: "AWS", icon: FaAws, level: "Advanced", color: "#26C6DA" },
-        { name: "Google Cloud", icon: SiGooglecloud, level: "Advanced", color: "#26C6DA" }
+        { name: "REST APIs", icon: FaCode, level: "Advanced", color: "#26C6DA" },
+        { name: "OAuth 2.0", icon: FaCode, level: "Proficient", color: "#26C6DA" },
+        { name: "Microservices", icon: FaCode, level: "Advanced", color: "#26C6DA" },
+        { name: "Kafka", icon: FaCode, level: "Proficient", color: "#26C6DA" },
+        { name: "CI/CD", icon: FaCode, level: "Proficient", color: "#26C6DA" },
+        { name: "Git & GitHub", icon: SiGithub, level: "Advanced", color: "#26C6DA" },
+        { name: "Linux", icon: FaCode, level: "Proficient", color: "#26C6DA" },
+        { name: "Jira, Agile & Scrum", icon: FaCode, level: "Proficient", color: "#26C6DA" },
+        { name: "Claude Code, Codex & GitHub Copilot", icon: FaCode, level: "Proficient", color: "#26C6DA" }
       ]
     }
   ], [])
@@ -335,4 +343,3 @@ function TechStack() {
 }
 
 export default TechStack
-

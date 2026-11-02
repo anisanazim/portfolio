@@ -141,7 +141,7 @@ function Home() {
           <div className="hero-element text-2xl md:text-4xl font-semibold text-slate-200 mb-8 h-16">
             <TypeWriter
               texts={[
-                "Machine Learning Engineer", 
+                "AI Engineer", 
                 "Software Engineer",
                 "Full Stack Developer",
               ]}
@@ -149,12 +149,18 @@ function Home() {
               deleteDelay={isMobile ? 50 : 30}
             />
           </div>
-
           <p className="hero-element text-slate-300 text-lg mb-10 max-w-2xl leading-relaxed">
-            A passionate <span className="text-emerald-400 font-semibold">Computer Science professional and tech enthusiast</span> based in Gainesville, Florida. 
-            Passionate about backend development, with growing expertise in <span className="text-violet-400 font-semibold">Data analysis, Machine learning, and Automation.</span>
-            Seeking opportunities to apply technical knowledge and contribute to real-world projects.  I enjoy building scalable, data-driven solutions that bridge the gap between complex systems and actionable insights.
-          </p> 
+            I'm a Computer Science professional who enjoys building software that solves real-world problems. My experience spans 
+            <span className="text-emerald-400 font-semibold"> Software Engineering</span>, 
+            <span className="text-emerald-400 font-semibold"> Backend Development</span>, 
+            <span className="text-emerald-400 font-semibold"> API Design</span>, and 
+            <span className="text-emerald-400 font-semibold"> Distributed Systems</span>, along with 
+            <span className="text-violet-400 font-semibold"> AI Agents</span>, 
+            <span className="text-violet-400 font-semibold"> LLM-powered Applications</span>, 
+            <span className="text-violet-400 font-semibold"> RAG Pipelines</span>, and 
+            <span className="text-violet-400 font-semibold"> Machine Learning</span>. 
+            I enjoy turning ideas into practical solutions, whether that's developing scalable backend systems, building intelligent applications, or automating complex workflows. I'm always curious to explore new technologies, solve challenging problems, and build software that makes a meaningful impact.
+          </p>
           <div className="hero-element flex flex-wrap gap-6">
             <button
               onClick={() => {

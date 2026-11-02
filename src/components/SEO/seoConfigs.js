@@ -24,7 +24,7 @@ export const SEO_CONFIGS = {
   techStack: {
     title: "Tech Stack - Anisa Shaik Portfolio | Technologies & Tools",
     description: "Explore Anisa's comprehensive technology stack.",
-    keywords: "tech stack, technologies, java, spring boot, react, mysql, mongodb, docker, git, development tools, programming languages",
+    keywords: "tech stack, Python, Java, JavaScript, SQL, generative AI, RAG, agentic AI, PyTorch, TensorFlow, Hugging Face, LangGraph, LangChain, FastAPI, AWS, Docker, Kubernetes, MLflow, PostgreSQL, MySQL, FAISS, REST APIs, microservices, Kafka, CI/CD, Git, Linux, GitHub Copilot",
     url: "https://anisashaik.netlify.app/"
   },
   
@@ -42,4 +42,3 @@ export const SEO_CONFIGS = {
     url: "https://anisashaik.netlify.app/"
   }
 };
-

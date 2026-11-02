@@ -32,16 +32,16 @@ function Resume() {
   // Memoize static data for performance - Updated with real resume content
   const experiences = useMemo(() => [
     {
-      title: "Graduate Research Assistant - ACIS Lab",
+      title: "AI Engineer",
       company: "University of Florida",
       period: "May 2025 - Present",
       location: "Gainesville, Florida, United States",
       achievements: [
-   "Created an AI agent for iChatBio.org with GPT-4, enabling access to 20M+ occurrence records from the Atlas of Living Australia (ALA), with Pydantic + Instructor ensuring 100% reliable parameters.",
-   "Architected modular NLP pipelines (entity resolution, parameter extraction, response summarization), driving a 15% increase in query accuracy and a 20% reduction in response time.",
-   "Leveraged the iChatBio SDK to handle A2A protocol abstractions and enhance middleware workflows, contributing to a 25% improvement in developer efficiency.",
-   "Integrated ALA’s Spatial Portal concepts (polygons, bounding boxes, gazetteer regions) to make spatial queries accessible without technical jargon."
-    ]
+        "Architected and deployed scalable AI agent workflows for iChatBio (ichatbio.org), a live A2A multi-agent research platform serving 1,000+ users, using LangGraph, LangChain, tool calling, Redis, and asynchronous processing.",
+        "Optimized agent routing with intent-based conditional execution and parallel tool calls, reducing median query latency by 35% while eliminating unnecessary agent and tool invocations.",
+        "Enforced Pydantic-validated inputs and Instructor-structured LLM outputs, reducing malformed responses by 80% and improving downstream tool-call reliability.",
+        "Built a 3-layer evaluation pipeline with pytest, DeepEval (LLM-as-judge, 500+ cases), and LangSmith tracing, gating deployments and reducing response-quality debugging time by 50%."
+      ]
     },
     {
       title: "Member Services Associate",
@@ -57,24 +57,17 @@ function Resume() {
 {
       title: "Software Engineer",
       company: "Fidelity National Information Services, Inc. (FIS)",
-      period: "Jun 2023 - Jul 2024",
+      period: "Jun 2022 - Jul 2024",
       location: "Chennai, Tamil Nadu, India",
       achievements: [
-        "Designed and implemented data validation workflows for a U.S. government EBT system, leveraging Java/Spring Boot to process 10K+ daily transactions, boosting system reliability by 30%.",
-        "Optimized SQL queries and parallelized batch workflows, cutting data ingestion latency by 30% and ensuring 90% system uptime for mission-critical benefit distribution.",
-        "Automated bulk card processing and transaction validation workflows (POS, ATM, e-commerce, voucher, incentive) using loaders and SQL log validation, reducing manual effort by 40%.",
-        "Enhanced backend batch processing and settlements by refining SQL stored procedures and transaction logic, lowering reconciliation mismatches by 25% and improving financial reporting accuracy."
-      ]
-    },
-{
-      title: "IT Trainee",
-      company: "Fidelity National Information Services, Inc. (FIS)",
-      period: "Jun 2022 - Jun 2023",
-      location: "Chennai, Tamil Nadu, India",
-      achievements: [
-        "Collaborated with cross-functional teams to resolve software bottlenecks, improving system performance and reducing transaction latency by 30%",
-        "Designed automated test suites using internal tools, boosting testing efficiency by 50%.",
-        "Documented development processes, workflows, and test coverage strategies as part of quality assurance best practices"
+        "Developed backend services and data-processing components using Java, SQL, REST APIs, and relational databases for enterprise transaction-processing systems handling more than 9.4 million transactions monthly.",
+        "Designed versioned RESTful APIs with input validation and error handling, maintaining backward compatibility across 20+ state integrations and reducing production API errors by approximately 15%.",
+        "Built responsive React and TypeScript modules integrated with REST APIs, creating reusable UI components, client-side validation, and error handling across transaction workflows.",
+        "Implemented OAuth2, JWT, and Spring Security for the NCH Portal, enforcing RBAC and MFA flows, reducing unauthorized access attempts by approximately 30%, and strengthening federal compliance.",
+        "Built React frontend modules integrated with event-driven Java backend services via Kafka, delivering end-to-end full-stack features and reducing application latency.",
+        "Diagnosed production transaction failures using SQL query analysis, Linux log tracing, and Splunk dashboards for cross-system correlation, reducing high-severity incidents by 25%.",
+        "Automated unit, functional, and regression testing using JUnit and Maven under test-driven development (TDD), strengthening CI/CD reliability through Jenkins pipelines and Bash and increasing release confidence by 30%.",
+        "Collaborated cross-functionally with DevOps, Testing, and Product teams in an Agile environment to deliver cloud-native microservices with quality, performance, and scalability across distributed systems."
       ]
     },
 {
@@ -94,11 +87,8 @@ function Resume() {
       period: "Sep 2021 - Oct 2021",
       location: "Remote",
       achievements: [
-        "During my internship, I developed a comprehensive hybrid model for stock market prediction using both numerical analysis and textual sentiment analysis. This project combined traditional stock price data with news headline sentiment to create a more accurate prediction system.",
-        "Developed a Long Short-Term Memory (LSTM) neural network model to analyze 17 years of historical TCS stock data for numerical price prediction",
-        "Performed sentiment analysis on news headlines, classifying them as positive (19.47%), negative (7.96%), or neutral (72.58%).",
-	      "Created a hybrid prediction model combining stock price data with sentiment analysis features including polarity and subjectivity scores.",
-	      "This internship strengthened my expertise in financial data analysis, machine learning implementation, and hybrid model development, while providing valuable experience in applying data science techniques to real-world financial prediction challenges."
+        "Engineered a hybrid stock-trend prediction pipeline integrating LSTM-based time-series forecasting with NLP-driven news sentiment analysis to combine numerical market data and textual signals.",
+        "Benchmarked six machine learning algorithms, with Gradient Boosting achieving the highest reported accuracy of 85.52%, outperforming AdaBoost (85.36%) and Logistic Regression (83.22%) in comparative model evaluation."
       ]
     }
   ], []);
@@ -110,16 +100,16 @@ function Resume() {
       institution: "University of Florida",
       period: "August 2024 - May 2026",
       location: "Gainesville, Florida, United States.",
-      gpa: "3.9",
-      details: "Final-year Software Engineering student with solid experience in Java and Spring Boot. Passionate about backend development, database design, and building scalable applications."
+      gpa: "3.93/4.00",
+      details: "Coursework - Advanced Data Structures, Analysis of Algorithms,Mathematics for Intelligent Systems, NLP Applications, Large Language Models, Data Science, Machine Learning, AI Ethics for Tech Leaders"
     },
 {
       degree: "Bachelor of Technology - B.Tech, Computer Science",
       institution: "B.S. Abdur Rahman Crescent Institute of Science and Technology",
       period: "July 2018 - May 2022",
       location: "Chennai, Tamil Nadu, India.",
-      gpa: "9.84/10",
-      details: "Courses - JavaScript · Android Studio · Core Java · Machine Learning Algorithms · Database Management System (DBMS) · Decision-Making · SQL · Leadership · HTML · Python (Programming Language) · Teamwork · REST APIs · Java · Data Structures"
+      gpa: "9.84/10.00",
+      details: "Coursework - Data Structures, Object-Oriented Programming, Analysis of Algorithms, Software Engineering, Operating Systems, Computer Networks, Distributed Computing, Database Management Systems, Web Development using Java, Artificial Intelligence and Machine Learning, Big Data Analytics, Cloud Computing, Advanced Programming for Data Science with Python, Network Security and Cryptography"
     }
     
   ], []);

@@ -5,10 +5,13 @@ import {
   FaReact, 
   FaDatabase, 
   FaJava, 
-  FaRocket,
   FaLightbulb,
   FaGraduationCap,
-  FaCode
+  FaRocket,
+  FaCode,
+  FaServer,
+  FaBrain,
+  FaDatabase
 } from "react-icons/fa";
 import {
   SiSpring,
@@ -106,19 +109,24 @@ function About() {
       description: "Building end-to-end applications with modern tech stack"
     },
     {
+      icon: <FaCode />,
+      title: "Software Engineering",
+      description: "Building maintainable applications, enterprise software, and robust solutions using modern development practices."
+    },
+    {
       icon: <FaServer />,
-      title: "Backend Architecture",
-      description: "Designing scalable microservices and RESTful APIs"
+      title: "Backend & API Engineering",
+      description: "Designing scalable backend services, REST APIs, microservices, and distributed systems."
     },
     {
-      icon: <FaLightbulb />,
-      title: "Problem Solving",
-      description: "Creating efficient solutions for complex business challenges"
+      icon: <FaBrain />,
+      title: "AI & LLM Engineering",
+      description: "Building intelligent AI agents, LLM-powered applications, RAG pipelines, and automated workflows."
     },
     {
-      icon: <FaGraduationCap />,
-      title: "Continuous Learning",
-      description: "Always exploring new technologies and best practices"
+      icon: <FaDatabase />,
+      title: "Data Engineering",
+      description: "Developing data pipelines, integrating diverse data sources, and transforming complex datasets into actionable insights."
     }
   ], []);
 
@@ -186,15 +194,15 @@ function About() {
               <h3 className="text-2xl font-bold text-slate-100 mb-4">Hello! I'm Anisa Shaik</h3>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  I'm a <span className="text-blue-400 font-semibold">graduate student</span> passionate about creating enterprise-level applications that combine solid 
-                  <span className="text-green-400 font-semibold"> engineering skills</span> with a focus on 
-                  <span className="text-green-400 font-semibold"> impactful user experiences</span>.
-                </p>
-                <p>I’m a passionate problem solver, a technology enthusiast, and a lifelong learner dedicated to creating impactful solutions. My journey in computer science has been fueled by a love for innovation and a drive to explore cutting-edge technologies.
+                  I'm a <span className="text-blue-400 font-semibold">Computer Science graduate</span> who enjoys solving challenging problems and turning ideas into working software. With experience in 
+                  <span className="text-green-400 font-semibold"> software engineering, backend development, and AI-driven applications</span>, I enjoy building systems that are both practical and scalable.
                 </p>
                 <p>
-                  When I’m not writing code or optimizing systems, you’ll often find me diving into new trends, brainstorming creative solutions, or exploring ways to make technology more accessible and user-friendly. I believe in the power of collaboration, continuous learning, and designing with purpose.
-Let’s connect and create something extraordinary together!
+                  I've worked on everything from developing <span className="text-green-400 font-semibold">enterprise applications and backend services</span> to building 
+                  <span className="text-violet-400 font-semibold"> AI agents, LLM-powered workflows, and RAG systems</span>. What I find most exciting is understanding how things work behind the scenes, solving the difficult parts, and seeing an idea evolve into something people can actually use.
+                </p>
+                <p>
+                  Beyond coding, I'm someone who enjoys exploring new technologies, learning by building, and collaborating with people who are passionate about what they do. I'm always looking for opportunities to grow as an engineer and work on problems that have a meaningful impact.
                 </p>
               </div>
             </div>

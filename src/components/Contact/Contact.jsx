@@ -70,8 +70,8 @@ function Contact() {
     {
       icon: FaEnvelope,
       label: "Email",
-      value: "anisa.shaik@ufl.edu",
-      href: "mailto:anisa.shaik@ufl.edu",
+      value: "anisa.shaik.2023@gmail.com",
+      href: "mailto:anisa.shaik.2023@gmail.com",
       color: "text-blue-400"
     },
     {
@@ -234,7 +234,7 @@ function Contact() {
                     <span className="text-sm font-semibold text-yellow-400">Available for Work</span>
                   </div>
                   <p className="text-sm text-gray-300 leading-relaxed">
-                    Currently seeking internship opportunities.
+                    Currently seeking Full-time opportunities.
                   </p>
                 </div>
               </div>

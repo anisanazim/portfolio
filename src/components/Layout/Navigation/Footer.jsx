@@ -25,7 +25,7 @@ const Footer = () => {
     {
       name: 'Email',
       icon: FaEnvelope,
-      url: 'mailto:anisa.shaik@ufl.edu',
+      url: 'mailto:anisa.shaik.2023@gmail.com',
       color: 'hover:text-red-400'
     }
   ]
@@ -41,8 +41,8 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: FaEnvelope,
-      text: 'anisa.shaik@ufl.edu',
-      href: 'mailto:anisa.shaik@ufl.edu'
+      text: 'anisa.shaik.2023@gmail.com',
+      href: 'mailto:anisa.shaik.2023@gmail.com'
     },
     {
       icon: FaLinkedin,
@@ -85,7 +85,7 @@ const Footer = () => {
               </h3>
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
-              Full-stack developer eager to harness the power of technology to create innovative solutions that drive efficiency and foster growth
+              Software Engineer passionate about building scalable applications, intelligent systems, and technology that solves real-world problems
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
