@@ -9,9 +9,7 @@ import {
   FaGraduationCap,
   FaRocket,
   FaCode,
-  FaServer,
-  FaBrain,
-  FaDatabase
+  FaBrain
 } from "react-icons/fa";
 import {
   SiSpring,
